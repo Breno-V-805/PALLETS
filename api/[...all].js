@@ -1,6 +1,6 @@
 /**
- * PALLETS Root // Vercel Catch-All API Forwarder
- * Delegates all /api/* subpath calls directly to PALLETS-V3 serverless handler.
+ * PALLETS V3 // Vercel Catch-All Serverless Route
+ * Routes all subpath API calls (/api/auth/*, /api/ops/*, etc.) to handleApiRequest.
  */
 'use strict';
 

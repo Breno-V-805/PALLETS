@@ -1,6 +1,6 @@
 {
   "master": "https://api.agents.snsihub.ai/webhook/cc0a6272-8aba-45b2-916a-b44905b2386a",
-  "supabaseSync": "",
+  "supabaseSync": "https://api.agents.snsihub.ai/webhook/339f3866-bb32-40ba-9849-c83dcc1df790",
   "authSupabase": "https://api.agents.snsihub.ai/webhook/40832378-4e7b-4a82-824f-963709fb5119",
   "ingestion": "https://api.agents.snsihub.ai/webhook/6793b021-48d8-468c-bc57-26a1853e7542",
   "forecasting": "https://api.agents.snsihub.ai/webhook/4798f7a4-a61f-43dc-a773-fa7d36475b2f",

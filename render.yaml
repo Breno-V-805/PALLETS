@@ -3,7 +3,6 @@ services:
     name: pallets-fmcg-platform
     env: node
     plan: free
-    rootDir: PALLETS-V3
     buildCommand: ""
     startCommand: "node server.js"
     envVars:

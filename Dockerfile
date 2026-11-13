@@ -3,8 +3,8 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy PALLETS V3 application files
-COPY PALLETS-V3/ .
+# Copy application files
+COPY . .
 
 # Set environment
 ENV NODE_ENV=production
