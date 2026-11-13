@@ -1,0 +1,9 @@
+.data/
+.secrets/
+.vercel/
+*.log
+node_modules/
+
+
+.vercel
+.env*

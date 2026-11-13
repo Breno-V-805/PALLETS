@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js?__pallets_path=/$1"
+    },
+    {
+      "source": "/styles/(.*)",
+      "destination": "/PALLETS-V3/styles/$1"
+    },
+    {
+      "source": "/js/(.*)",
+      "destination": "/PALLETS-V3/js/$1"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/PALLETS-V3/assets/$1"
+    },
+    {
+      "source": "/",
+      "destination": "/PALLETS-V3/index.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/PALLETS-V3/index.html"
+    }
+  ]
+}

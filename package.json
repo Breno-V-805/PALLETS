@@ -1,0 +1,22 @@
+{
+  "name": "pallets-fmcg-platform",
+  "version": "2.0.0",
+  "description": "PALLETS // FMCG AI Predictive Inventory & Replenishment Orchestration",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "tunnel": "npx localtunnel --port 3000"
+  },
+  "keywords": [
+    "fmcg",
+    "inventory",
+    "ai-forecasting",
+    "replenishment",
+    "sns-agent-workbench"
+  ],
+  "author": "Antigravity & Pallets Engineering",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

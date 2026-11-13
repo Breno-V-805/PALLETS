@@ -1,0 +1,24 @@
+# Security & Sensitive Files
+.secrets/
+**/.secrets/
+*.key
+.env*
+*.pem
+
+# Runtime State & Audit Databases
+.data/
+**/.data/
+*.tmp
+*.log
+
+# Dependencies & Serverless Builds
+node_modules/
+.vercel/
+.netlify/
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.zip
