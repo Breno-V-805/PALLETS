@@ -70,3 +70,4 @@ If you need to transfer the repository directly with a pendrive:
 
 If you want a free 24/7 cloud deployment without Vercel's serverless file constraints:
 * **Render.com** (Free Web Service): Connect your GitHub repository, choose Node.js environment, set Start Command to `node PALLETS-V3/server.js`, and click Deploy. Render runs the full persistent Node.js server continuously.
+
