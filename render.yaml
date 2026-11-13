@@ -3,6 +3,7 @@ services:
     name: pallets-fmcg-platform
     env: node
     plan: free
+    rootDir: PALLETS-V3
     buildCommand: ""
     startCommand: "node server.js"
     envVars:
@@ -10,4 +11,11 @@ services:
         value: production
       - key: PORT
         value: 10000
-
+      - key: PALLETS_ADMIN_EMAIL
+        value: admin@pallets.enterprise
+      - key: PALLETS_ADMIN_PASSWORD
+        value: PalletsAdmin2026!
+      - key: PALLETS_ADMIN_NAME
+        value: Elena Vance
+      - key: PALLETS_SESSION_SECRET
+        value: 4f8a9e2c6b1d7e3a5f0c8b2d4e6a8f0c2e4a6b8d0e2f4a6c8e0b2d4f6a8c0e2a
