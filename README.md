@@ -9,9 +9,9 @@ Rebuilt B2B SaaS platform for dark-store predictive inventory intelligence, mult
 1. **Original V2 Safety**: All original V2 files in the parent folder remain completely untouched, with an additional full snapshot stored in `../PALLETS-V2-BACKUP/`.
 2. **Start Server**:
    ```powershell
-   cd d:\metreecs-fmcg-dashboard\PALLETS-V3
-   node server.js
+   .\start.ps1
    ```
+   *(Or simply run `node server.js`)*
    Opens on `http://localhost:3001` (override port with `$env:PORT=3001`).
 
 3. **Initial One-Time Admin Bootstrap**:

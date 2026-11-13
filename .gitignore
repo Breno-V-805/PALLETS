@@ -16,6 +16,10 @@ node_modules/
 .vercel/
 .netlify/
 
+# Local Migration Backups (kept locally, not in Git)
+PALLETS-V2-BACKUP/
+PALLETS-V3/
+
 # OS & Editor Metadata
 .DS_Store
 Thumbs.db
