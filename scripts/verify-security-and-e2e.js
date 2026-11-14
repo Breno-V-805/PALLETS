@@ -15,7 +15,7 @@ process.env.PALLETS_DATA_DIR = path.join(TEMP_ROOT, '.data');
 process.env.PALLETS_SECRETS_DIR = path.join(TEMP_ROOT, '.secrets');
 process.env.PALLETS_BOOTSTRAP_TOKEN = 'TEST_ONE_TIME_BOOTSTRAP_SECRET_991';
 
-const { createServerInstance } = require('../server.js');
+const { createServerInstance } = require('../server/server.js');
 const Calculations = require('../js/core/calculations.js');
 const SeedData = require('../js/core/seed-data.js');
 const ForecastingEngine = require('../js/existing/forecasting-engine.js');

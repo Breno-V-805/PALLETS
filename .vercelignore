@@ -1,0 +1,12 @@
+# Vercel Deployment Ignore
+# Ensures Vercel treats the project as a static site + api/ serverless function
+# and does not attempt to compile server.js as a whole-site HTTP router.
+server.js
+render.yaml
+Dockerfile
+scripts/
+.git/
+.secrets/
+.data/
+PALLETS-V2-BACKUP/
+PALLETS-V3/

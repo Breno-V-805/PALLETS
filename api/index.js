@@ -4,7 +4,7 @@
  */
 'use strict';
 
-const { handleApiRequest } = require('../server.js');
+const { handleApiRequest } = require('../server/server.js');
 
 module.exports = async (req, res) => {
   try {
