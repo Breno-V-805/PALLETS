@@ -1,0 +1,23 @@
+name: Render Keep-Alive Heartbeat
+
+on:
+  schedule:
+    # Ping every 10 minutes to prevent Render free-tier idle spin-down (15 min threshold)
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  heartbeat:
+    name: Ping Render Health Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send HTTP Heartbeat
+        run: |
+          echo "Pinging Render deployment at $(date -u)..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 "https://pallets-plpk.onrender.com/api/health")
+          echo "Render response code: $STATUS"
+          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+            echo "Render service is awake and healthy."
+          else
+            echo "Warning: Received HTTP $STATUS"
+          fi

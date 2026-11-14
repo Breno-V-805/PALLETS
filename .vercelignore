@@ -5,8 +5,11 @@ server.js
 render.yaml
 Dockerfile
 scripts/
+keep-alive.ps1
+.github/
 .git/
 .secrets/
 .data/
 PALLETS-V2-BACKUP/
 PALLETS-V3/
+
