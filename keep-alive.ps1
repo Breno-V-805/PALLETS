@@ -33,3 +33,4 @@ while ($true) {
   Write-Host "Next ping in $IntervalMinutes minutes..." -ForegroundColor DarkGray
   Start-Sleep -Seconds $intervalSec
 }
+

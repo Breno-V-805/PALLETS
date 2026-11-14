@@ -3,8 +3,8 @@
   "version": "3.0.0",
   "description": "PALLETS V3 // Enterprise Dark-Industrial FMCG Predictive Inventory & Replenishment Platform",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
     "test": "node scripts/verify-security-and-e2e.js"
   },
   "keywords": [

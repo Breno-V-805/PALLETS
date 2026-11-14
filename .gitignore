@@ -19,6 +19,8 @@ node_modules/
 # Local Migration Backups (kept locally, not in Git)
 PALLETS-V2-BACKUP/
 PALLETS-V3/
+server.js
+test-vercel.js
 
 # OS & Editor Metadata
 .DS_Store
